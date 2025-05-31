@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('./font/Montserratarm-Bold.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./font/Montserratarm-Regular.otf');
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat, serif;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.container-fluid{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:30px 0;
+}
+.align-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.vh-30{
+    height: 30vh;
+}
+.vh-50 {
+    height: 50vh;
+}
+
+.bg-primary{
+    background-color: #5DBA2F;
+    color:white;
+}
+.bg-secondary{
+    background-color: rgba(197, 195, 195, 0.47);
+}
+.text-primary{
+    color: #5DBA2F
+}
+.outline-primary{
+    outline:1px solid #5DBA2F;
+}
+
+.btn-primary{
+    font-size:20px;
+    padding: 10px 20px;
+    border:none;
+}
+.btn-secondary{
+    font-size:20px;
+    padding: 25px;
+    border:1px solid #5DBA2F;
+    color:#5DBA2F;
+    background-color: white;
+    border-radius:10px;
+
+}
+.py-2{
+    padding:20px 0;
+}
+.py-3{
+    padding:30px 0;
+}
+.p-2{
+   padding:20px;
+}
+.my-3{
+    margin:30px 0;
+}
+.my-9{
+    margin: 90px 0;
+}
+.radius-right{
+    border-radius: 0 10px 10px 0;
+}
+.radius-4x{
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.section-padding{
+    padding:30px 0;
+    margin-bottom: 20px;
+}
+
+.bg-image-1{
+    background-image: url('./img/2387_original.jpg');
+    background-size: cover;
+}
+.title{
+    font-family: 'Montserrat-bold', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.text{
+    font-size:14px;
+    margin: 10px 0;
+}
+
+.input-field{
+    width:80%;
+    margin: 50px auto;
+    display:flex;
+}
+.input-control{
+    width:80%;
+    height:45px;
+    border:none;
+    outline:none;
+}
+.text-field{
+    width:45%;
+    margin:0 auto;
+}
+.img-fluid{
+    width:40%;
+}
+.card{
+    width:30%;
+    padding-bottom: 20px;
+
+    img{
+        width:100%;
+    }
+}
+
+.card-3{
+    width:30%;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border:1px solid rgba(0, 0, 0, 0.21);
+    margin-right: 3px;
+
+    img{
+        width:100%;
+    }
+}
+.smart-service{
+
+    p{
+        text-align: left;
+        margin: 10px 0;
+    }
+}
+.social-icons{
+    display: flex;
+
+    li{
+        list-style: none;
+        padding: 15px;
+
+        a{
+            i{
+                font-size: 45px;
+                color: black;
+            }
+        }
+    }
+}
+
+.social-icons-group{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+    img{
+        width: 40px;
+    }
+}
+.smart-skill{
+    display: flex;
+    gap:0 10px;
+
+    img{
+        width: 30px;
+        object-fit: contain;
+    }
+}
